@@ -8,7 +8,7 @@ spec:
   - host: 
     http:
       paths:
-      - path: /about-svc.about.svc.cluster.local
+      - path: /about-svc.about.cluster.local
         backend:
           serviceName: about-svc
           serviceport: 80
